@@ -1,0 +1,8 @@
+Must be ran in Code Composer
+
+This project is a digital synthesizer which recreates instruments through a reversed
+engineered sinusoidal waveform which encapsulates an instrument’s fourier spectrum. Each
+instrument’s waveform is stored in a predefined lookup table. Whenever a button is pressed, a
+sound corresponding to the button’s frequency is played through a connected speaker. When the
+user lifts the button, the sound ceases to be played. Additionally, depending on the instrument
+being played, a corresponding LED will light up within the button being pressed and stay on for the duration of the hold.
