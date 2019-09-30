@@ -1,0 +1,24 @@
+Sharmayne Tanedo (stanedo)
+
+Our program runs as described in the asgn4 document.
+
+./mytar cvf foo.tar Dir
+	- create a .tar archive file with the subdirectories and files in Dir
+	- verbose mode
+./mytar cf foo.tar file1 file2
+	- creates a .tar archive
+	- only has the two files
+	- no stdout because verbose is off
+./mytar tvf foo.tar
+	-lists the file with permissions, owner/group, size, Mtime, Name
+	-verbose
+./mytar tf foo.tar
+	-lists the name of the paths
+./mytar xvf foo.tar Dir1/Dir2/
+	-lists all the files that are extrated because verbose is on
+	-creates the directory Dir1/Dir2/ followed by all its subdirectories
+		and files
+./mytar xf foo.tar
+	-creates the directory from foo.tar and all its subdirectories and files
+
+

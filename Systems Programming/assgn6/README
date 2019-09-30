@@ -1,0 +1,14 @@
+Jay Ahn (jaahn)
+Sharmayne Tanedo (stanedo)
+
+Our program works like a simple shell. It has fairly powerful functionality. 
+
+A few things you need to consider: 
+
+1. You need to have a space around '<', '>', and '|'. 
+2. The built-in cd command should be the first command on the line.
+3. If there are an opening a file error in the first stage and any parseline errors in next stage,
+   our program prints the parse line error instead of the opening a file error.
+4. There is no minimum size limits.
+
+

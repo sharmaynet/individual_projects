@@ -1,0 +1,12 @@
+Sharmayne Tanedo (stanedo)
+
+For assignment 5, we created the parsing of our minimally useful shell.
+
+when we read a single mush command-line, we parse it to a list of commands 
+showing the inputs, outputs, and arguments of each. 
+
+when running ./parseline, make sure you have spaces before and after each symbol
+('<', '>', '|'). All of the words and all of the symbols must be separated with
+a space for this to work.
+
+Other than that, ./parseline should work as intended from the lab manual

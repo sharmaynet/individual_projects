@@ -1,0 +1,15 @@
+Sharmayne Tanedo
+
+detab.c operates as intended in the assignment description.
+
+My program takes in stdin, and recurses in an integer c until it reaches
+the end of the file (end of the input argument). I have an interger index
+that keeps track of where the index of the stdout is. If the user passes in
+a '/t', then the program checks what index the stdout is, and adds a ' ' until
+the index is a multple of 8 (mimicing a tab space that indents the cursor at 
+a multiple of 8). If the user inputs a '\b', the index goes back by one. If the
+user inputs a '\r' or a '\n', then the index goes back to 0 becaucse in a 
+carriege character, it completely erases everything before the '\r' char,
+and resets the index back to 0, while in the new line, the index starts back 
+to 0. If the user inputs a regular character, then the index increases by one,
+and it outputs the character through putchar(c).

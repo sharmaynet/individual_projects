@@ -1,0 +1,13 @@
+Sharmayne Tanedo (stanedo)
+
+For this assignment, call: 
+./htable [file 1] > [file2] or ./htable [file 1] if you want a stdout
+./hencode [file1] [file2] to convert the .txt into a .huff file
+./hencode [file1] if you want stdout
+./hdecode [file1] [file2] to convert the .huff file into a .txt
+./hdecode [file1] if you want a stdout
+
+The purpose of each source file and header is commented on the top of each
+file. 
+
+./hencode and ./hdecode is suppose to work as intended
